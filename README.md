@@ -22,21 +22,21 @@
     
     - The 10 steps I took to try and increase model performance were: 
     
-     - Step #1: Drop the STATUS and SPECIAL_CONSIDERATIONS columns = Failed
-     - Step #2: Add 3rd hidden layer (relu) = Failed
-     - Step #3: Added 100 epochs = Failed
-     - Step #4: Add 4th hidden layer (relu) = Failed 
-     - Step #5: Add 5th hidden layer (relu) = Failed
-     - Step #6: Add 6th hidden layer (relu)= Failed
-     - Step #7: Change all layers to sigmoid = Failed
-     - Step #8: Change all layers to relu = Failed
-     - Step #9: Change two layers to relu, two to sigmoid, and two to tanh. = Failed
-     - Step #10: Change all layers to tanh = Failed
+             - Step #1: Drop the STATUS and SPECIAL_CONSIDERATIONS columns = Failed
+             - Step #2: Add 3rd hidden layer (relu) = Failed
+             - Step #3: Added 100 epochs = Failed
+             - Step #4: Add 4th hidden layer (relu) = Failed 
+             - Step #5: Add 5th hidden layer (relu) = Failed
+             - Step #6: Add 6th hidden layer (relu)= Failed
+             - Step #7: Change all layers to sigmoid = Failed
+             - Step #8: Change all layers to relu = Failed
+             - Step #9: Change two layers to relu, two to sigmoid, and two to tanh. = Failed
+             - Step #10: Change all layers to tanh = Failed
 
 # Summary
 
 - The results of my final optimized model suggest that it can predict the success of the charity applicant 72.5% of the time. Though the original model at then end of deliverable 2 was virtually the same, with far fewer layers and nodes, and thus less likely to be overfitting the data. 
-- 
+
 - Future models might be able to solve this classification problem by collecting and incorporating additional data on the applicants that might be more impactful than some of the data we removed from the current dataset (EIN, NAME, SPECIAL_CONSIDERATIONS, STATUS). For example, an organization's history of successful projects, an organization's years of experience in the field, where the charity work is taking place, etc. 
 
 # Data and Models
